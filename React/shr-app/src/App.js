@@ -1,54 +1,43 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Test from './components/Test';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import MyButton from './components/MyButton';
-import Service from './components/Service'
-import MyCard from './components/MyCard';
+import Header from './components/Header'
 
-import { useState } from 'react';
+
+import Quicklinks from './components/Quicklinks';
 
 function App() {
-  const [count, setCount] = useState(0);
-  const [secondcount, setSecondcount] = useState(0);
 
-  function handleClick() {
-    setCount(count + 1);
-  }
-
-  function handleClick2() {
-    setSecondcount(secondcount + 1);
-  }
 
   return (
     <div className="App">
 
       <Container>
-        <Row>
-          <Col>
-            <Service></Service>
+        <Row className='mt-4'>
+          <Col md={3}>
+            <Row></Row>
+            <Col>
+              <Header ></Header>
+            </Col>
+            <Row>
+              <Col>
+                <Quicklinks ></Quicklinks>
+              </Col>
+            </Row>
+
 
           </Col>
-          <Col>
-
-              <MyButton count={count} onClick={handleClick} ></MyButton>
-    
-            
+          <Col md={6}>
+            <Quicklinks></Quicklinks>
           </Col>
-          <Col>
-            <MyButton count={secondcount} onClick={handleClick2}></MyButton>
-
-          </Col>
-
-        </Row>
-
-        <Row className='mt-5'>
-          <Col>
-            <MyCard ></MyCard>
+          <Col md={3}>
+            <Quicklinks></Quicklinks>
           </Col>
         </Row>
+
+
 
       </Container>
 
