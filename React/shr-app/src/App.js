@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import MyButton from './components/MyButton';
 import Service from './components/Service'
+import MyCard from './components/MyCard';
 
 import { useState } from 'react';
 
@@ -31,7 +32,10 @@ function App() {
 
           </Col>
           <Col>
-            <MyButton count={count} onClick={handleClick} ></MyButton>
+
+              <MyButton count={count} onClick={handleClick} ></MyButton>
+    
+            
           </Col>
           <Col>
             <MyButton count={secondcount} onClick={handleClick2}></MyButton>
@@ -39,6 +43,13 @@ function App() {
           </Col>
 
         </Row>
+
+        <Row className='mt-5'>
+          <Col>
+            <MyCard ></MyCard>
+          </Col>
+        </Row>
+
       </Container>
 
     </div>
