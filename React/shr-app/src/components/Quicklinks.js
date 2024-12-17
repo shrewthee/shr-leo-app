@@ -11,8 +11,6 @@ const client = contentful.createClient({
     accessToken: '7vjrEcg4rZ4Zl6f_ZfzTpl0znUW-0EiTe1Z7l3_qvxA'
 })
 
-
-
 function Quicklinks() {
 
     const [data, setData] = useState([]);
@@ -38,22 +36,25 @@ function Quicklinks() {
     const getContents = () => {
 
         const outputArray = []
-        data.forEach(item => {
-            outputArray.push(<a href={item.fields.url} ><ListGroup.Item>{item.fields.title}</ListGroup.Item> </a>)
+        data.forEach((item, index) => {
+
+            if (index === 0) {
+                outputArray.push(<><div><Header title={"Quicklinks"}></Header></div><a href={item.fields.url} ><ListGroup.Item>{item.fields.title}</ListGroup.Item> </a></>)
+            }
+            else {
+                outputArray.push(<a href={item.fields.url} ><ListGroup.Item>{item.fields.title}</ListGroup.Item> </a>)
+            }
+
+
         })
         return <ListGroup>{outputArray}</ListGroup>
     }
 
-    return ( 
+    return (
         <>
-        {isLoading ? <p>Loading please wait.</p>: <Header></Header> {getContents()}
-        
-        
-        
-        
-        
+            {isLoading ? <p>Loading please wait.</p> : getContents()}
         </>
-     );
+    );
 }
 
 export default Quicklinks;

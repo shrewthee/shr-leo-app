@@ -42,6 +42,9 @@ body {
 }
 
 
-.test-color {
-  background-color: red;
+.header-style {
+  background-color: #ce2127;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
 }

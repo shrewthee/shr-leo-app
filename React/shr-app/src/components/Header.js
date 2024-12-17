@@ -1,16 +1,8 @@
 
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
-function Header () {
+function Header ({title}) {
     return ( 
-
-        <Row>
-            <Col>
-            <p>Header</p>
-            </Col>
-        </Row>
-
+            <div className="header-style">{title}</div>
      );
 }
 
