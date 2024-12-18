@@ -3,10 +3,9 @@ import './App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
-
-
+import Dog from './components/Dog';
 import Quicklinks from './components/Quicklinks';
+import Spotlight from './components/Spotlight';
 
 function App() {
 
@@ -20,10 +19,15 @@ function App() {
             <Quicklinks ></Quicklinks>
           </Col>
           <Col md={6}>
-            <Quicklinks></Quicklinks>
+            <Row>
+            <Dog></Dog>
+            </Row>
+            <Row className='mt-4'>
+            <Spotlight></Spotlight>
+            </Row>
           </Col>
           <Col md={3}>
-            <Quicklinks></Quicklinks>
+            <Spotlight></Spotlight>
           </Col>
         </Row>
 
