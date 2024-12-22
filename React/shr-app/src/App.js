@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Dog from './components/Dog';
 import Quicklinks from './components/Quicklinks';
 import Spotlight from './components/Spotlight';
+import ContactUs from './components/ContactUs';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
           </Col>
           <Col md={3}>
             <Spotlight></Spotlight>
+            <ContactUs></ContactUs>
           </Col>
         </Row>
 
