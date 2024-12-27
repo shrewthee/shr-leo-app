@@ -1,0 +1,12 @@
+.tab-content {
+    margin: 20px;
+}
+
+.doginfo-alignment p {
+    text-align: left !important;
+   
+}
+
+.doginfo-alignment  {
+        border: 2px solid gray;
+}

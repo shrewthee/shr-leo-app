@@ -1,0 +1,11 @@
+.header-image-container {
+    position: relative;
+  
+  }
+  
+  .header-text-container {
+    position: absolute;
+    top:23%;
+    color:#fff
+  
+  }

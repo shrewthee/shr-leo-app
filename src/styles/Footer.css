@@ -1,0 +1,12 @@
+.footer {
+    background-color: #ce2127;
+}
+
+.footer a {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.social-icons svg {
+    margin: 20px;
+}
