@@ -10,6 +10,8 @@ import ContactUs from './pages/ContactUs'
 import Experience from './pages/Experience';
 import Information from './pages/Information';
 import ImageGellery from './pages/ImageGallery';
+import Crudlocal from './pages/Crudlocal';
+
 function App() {
   return (
     <div className="App">
@@ -22,6 +24,7 @@ function App() {
         <Route path='/information' element={<Information />} />
         <Route path='/experience' element={<Experience />} />
         <Route path='/gallery' element={<ImageGellery />} />  
+        <Route path='/crudlocal' element={<Crudlocal/>} />
       </Routes>
 
     </div>
