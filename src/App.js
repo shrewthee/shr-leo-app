@@ -16,7 +16,7 @@ import Crudapi from './pages/Crudapi';
 function App() {
   return (
     <div className="App">
-      <Routes >
+      <Routes basename="/shr-leo-app">
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
 
