@@ -37,6 +37,12 @@ function Navigation() {
                   <Nav.Link >CRUD Local</Nav.Link>
                 </LinkContainer>
               </NavDropdown.Item>
+
+              <NavDropdown.Item >
+                <LinkContainer to="/crudapi">
+                  <Nav.Link >CRUD API</Nav.Link>
+                </LinkContainer>
+              </NavDropdown.Item>
               {/* <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>

@@ -11,6 +11,7 @@ import Experience from './pages/Experience';
 import Information from './pages/Information';
 import ImageGellery from './pages/ImageGallery';
 import Crudlocal from './pages/Crudlocal';
+import Crudapi from './pages/Crudapi';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/experience' element={<Experience />} />
         <Route path='/gallery' element={<ImageGellery />} />  
         <Route path='/crudlocal' element={<Crudlocal/>} />
+        <Route path='/crudapi' element={<Crudapi/>} />
       </Routes>
 
     </div>
