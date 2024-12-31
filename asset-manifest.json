@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/shr-leo-app/static/css/main.74436731.css",
-    "main.js": "/shr-leo-app/static/js/main.80e4ddf0.js",
+    "main.js": "/shr-leo-app/static/js/main.14b18339.js",
     "static/js/453.b52158f7.chunk.js": "/shr-leo-app/static/js/453.b52158f7.chunk.js",
     "static/media/logo.svg": "/shr-leo-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/shr-leo-app/index.html",
     "main.74436731.css.map": "/shr-leo-app/static/css/main.74436731.css.map",
-    "main.80e4ddf0.js.map": "/shr-leo-app/static/js/main.80e4ddf0.js.map",
+    "main.14b18339.js.map": "/shr-leo-app/static/js/main.14b18339.js.map",
     "453.b52158f7.chunk.js.map": "/shr-leo-app/static/js/453.b52158f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74436731.css",
-    "static/js/main.80e4ddf0.js"
+    "static/js/main.14b18339.js"
   ]
 }
