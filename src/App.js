@@ -16,17 +16,17 @@ import Crudapi from './pages/Crudapi';
 function App() {
   return (
     <div className="App">
-      <Routes basename="/shr-leo-app">
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
+      <Routes >
+        <Route path='/shr-leo-app/' exact element={<Home />} />
+        <Route path='/shr-leo-app/about' exact element={<About />} />
 
-      <Route path='/contact' element={<ContactUs />} />
-      
-        <Route path='/information' element={<Information />} />
-        <Route path='/experience' element={<Experience />} />
-        <Route path='/gallery' element={<ImageGellery />} />  
-        <Route path='/crudlocal' element={<Crudlocal/>} />
-        <Route path='/crudapi' element={<Crudapi/>} />
+        <Route path='/shr-leo-app/contact' element={<ContactUs />} />
+
+        <Route path='/shr-leo-app/information' element={<Information />} />
+        <Route path='/shr-leo-app/experience' element={<Experience />} />
+        <Route path='/shr-leo-app/gallery' element={<ImageGellery />} />
+        <Route path='/shr-leo-app/crudlocal' element={<Crudlocal />} />
+        <Route path='/shr-leo-app/crudapi' element={<Crudapi />} />
       </Routes>
 
     </div>

@@ -3,9 +3,20 @@
   
   }
   
+
+
   .header-text-container {
     position: absolute;
     top:23%;
     color:#fff
   
+  }
+
+  @media screen and (min-width: 480px) {
+    .header-text-container {
+      position: absolute;
+      top:23%;
+      color:#000
+    
+    }
   }

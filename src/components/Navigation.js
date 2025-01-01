@@ -8,38 +8,38 @@ function Navigation() {
     return ( 
         <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-        <LinkContainer to="/">
+        <LinkContainer to="/shr-leo-app/">
           <Navbar.Brand >Home</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
        
-              <LinkContainer to="/about">
+              <LinkContainer to="/shr-leo-app/about">
               <Nav.Link >About</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/contact">
+              <LinkContainer to="/shr-leo-app/contact">
               <Nav.Link >Contact</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/information">
+              <LinkContainer to="/shr-leo-app/information">
               <Nav.Link >Information</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/experience">
+              <LinkContainer to="/shr-leo-app/experience">
               <Nav.Link >Experience</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/gallery">
+              <LinkContainer to="/shr-leo-app/gallery">
               <Nav.Link >Image Gallery</Nav.Link>
               </LinkContainer>
            
               <NavDropdown title="CRUD" id="basic-nav-dropdown">
               <NavDropdown.Item >
-                <LinkContainer to="/crudlocal">
+                <LinkContainer to="/shr-leo-app/crudlocal">
                   <Nav.Link >CRUD Local</Nav.Link>
                 </LinkContainer>
               </NavDropdown.Item>
 
               <NavDropdown.Item >
-                <LinkContainer to="/crudapi">
+                <LinkContainer to="/shr-leo-app/crudapi">
                   <Nav.Link >CRUD API</Nav.Link>
                 </LinkContainer>
               </NavDropdown.Item>
