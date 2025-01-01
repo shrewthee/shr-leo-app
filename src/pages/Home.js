@@ -13,14 +13,14 @@ function Home() {
             <Container fluid>
 
                 <Row>
-                    <div className='header-image-container'>
-                        <img src=".https://shrewthee.github.io/shr-leo-app/assets/Leobanner.png" className='img-fluid  ' />
+                    <div >
+                        <img src="https://shrewthee.github.io/shr-leo-app/assets/Leobanner.png" className='img-fluid  ' />
 
                     </div>
 
-                    <div className='header-text-container'>
+                    {/* <div className='header-text-container'>
                         <p className='display-1' >Leo the DOG aka GOD</p>
-                    </div>
+                    </div> */}
                 </Row>
             </Container>
 
